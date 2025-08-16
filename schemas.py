@@ -60,28 +60,12 @@ get_store_pet_inventory = {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "sold": {
-      "type": "integer"
-    },
-    "new": {
-      "type": "integer"
-    },
-    "string": {
-      "type": "integer"
-    },
-    "pending": {
-      "type": "integer"
-    },
     "available": {
       "type": "integer"
     }
   },
   "required": [
-    "sold",
-    "new",
-    "string",
-    "pending",
-    "available",
+    "available"
   ]
 }
 
